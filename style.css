@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+label{
+    text-align: center;
+    margin: 5px;
+    color: green;
+}
+input[type='text']{
+    width: 30em;
+    margin: 5px;
+    outline: none;
+    border-radius: 20px;
+    padding: 1px 10px;
+}
